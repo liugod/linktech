@@ -36,7 +36,7 @@ const User = ({ user }: { user: TUser }) => {
               : style.userData.description
           }
         >
-          kyte.
+          linktech.
         </Text>
       </a>
     </>

@@ -42,7 +42,7 @@ const EditorHeader = ({ user }: { user: TUser | null }) => {
     setSaveState('saving')
     await fetch('/api/publishkyte')
     setSaveState('saved')
-    toast({ title: 'Kyte published!', status: 'success', duration: 3000 })
+    toast({ title: 'Linktech published!', status: 'success', duration: 3000 })
   }
 
   const autoSave = async (userData: TUser) => {
