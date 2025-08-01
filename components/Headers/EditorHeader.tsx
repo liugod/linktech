@@ -141,7 +141,7 @@ const EditorHeader = ({ user }: { user: TUser | null }) => {
                           View Profile
                         </Link>
                         <Link onClick={() => setModalOpen(true)} colorScheme="blue">
-                          Share Kyte
+                          Share Linktech
                         </Link>
                         <Link onClick={logout} colorScheme="blue">
                           Log out
