@@ -1,8 +1,8 @@
 export const HOSTS = [
-  'kytelink.com',
-  'www.kytelink.com',
-  'staging.kytelink.com',
-  'www.staging.kytelink.com',
+  'linktech.com',
+  'www.linktech.com',
+  'staging.linktech.com',
+  'www.staging.linktech.com',
   'localhost:3000',
 ]
 

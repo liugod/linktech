@@ -23,7 +23,7 @@ type GetStartedModalProps = {
 }
 
 const ShareKyteModal = ({ modalOpen, setModalOpen, username }: GetStartedModalProps) => {
-  const urls = ['kyte.bio', 'kyte.lol', 'kytelink.com', 'yoyo.so']
+  const urls = ['kyte.bio', 'kyte.lol', 'linktech.com', 'yoyo.so']
   const socials = [
     {
       icon: FaTwitter,
@@ -70,7 +70,7 @@ const ShareKyteModal = ({ modalOpen, setModalOpen, username }: GetStartedModalPr
         <ModalBody pb={20} px={{ base: 4, md: 20 }}>
           <VStack pt={12} spacing={8}>
             <Heading fontSize={{ base: 'md', md: 'lg' }}>
-              Share your Kyte with the world 🌎❤️
+              Share your Linktech with the world 🌎❤️
             </Heading>
             <SimpleGrid columns={2} textAlign="center" spacing={4}>
               {urls.map((url, index) => (

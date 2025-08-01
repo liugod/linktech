@@ -42,7 +42,7 @@ const EditorHeader = ({ user }: { user: TUser | null }) => {
     setSaveState('saving')
     await fetch('/api/publishkyte')
     setSaveState('saved')
-    toast({ title: 'Kyte published!', status: 'success', duration: 3000 })
+    toast({ title: 'Linktech published!', status: 'success', duration: 3000 })
   }
 
   const autoSave = async (userData: TUser) => {
@@ -102,7 +102,7 @@ const EditorHeader = ({ user }: { user: TUser | null }) => {
               boxSize="2rem"
               cursor="pointer"
               src="/logo.png"
-              alt="Kytelink Logo"
+              alt="Linktech Logo"
               onClick={() => router.push('/')}
             />
             <Spacer />
@@ -141,7 +141,7 @@ const EditorHeader = ({ user }: { user: TUser | null }) => {
                           View Profile
                         </Link>
                         <Link onClick={() => setModalOpen(true)} colorScheme="blue">
-                          Share Kyte
+                          Share Linktech
                         </Link>
                         <Link onClick={logout} colorScheme="blue">
                           Log out
